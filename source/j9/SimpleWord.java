@@ -1,3 +1,5 @@
+package j9;
+
 public class SimpleWord {
     
     private String correctSpelling;

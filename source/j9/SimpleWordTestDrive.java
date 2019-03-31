@@ -1,3 +1,5 @@
+package j9;
+
 public class SimpleWordTestDrive {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package j9;
+
 import java.util.*;
 
 class SimpleSpellGame {

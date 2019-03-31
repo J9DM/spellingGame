@@ -1,3 +1,5 @@
+package j9;
+
 // From HeadFirst Java.
 
 import java.io.*;
@@ -14,6 +16,6 @@ public class GameHelper {
         } catch (IOException e) {
             System.out.println("IOException: " + e);
         }
-        return inputLine;
+        return inputLine.toLowerCase();
     }
 }
