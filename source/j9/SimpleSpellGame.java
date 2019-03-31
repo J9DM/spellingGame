@@ -11,8 +11,7 @@ class SimpleSpellGame {
         
         ArrayList<SimpleWord> words = new ArrayList<SimpleWord>();
         for (String element : list) {
-            SimpleWord word = new SimpleWord();
-            word.setSpelling(element);
+            SimpleWord word = new SimpleWord(element);
             words.add(word);
         }
         

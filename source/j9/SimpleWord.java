@@ -5,9 +5,9 @@ public class SimpleWord {
     private String correctSpelling;
     private int numOfGuesses = 0;
     
-    public void setSpelling(String spelling) {
+    public SimpleWord(String spelling) {
         correctSpelling = spelling;
-    } // close method
+    } // close constructor
     
     public String getSpelling() {
         return correctSpelling;

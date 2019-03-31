@@ -3,10 +3,8 @@ package j9;
 public class SimpleWordTestDrive {
 
     public static void main(String[] args) {
-        SimpleWord word = new SimpleWord();
-        
         String myWord = "test";
-        word.setSpelling(myWord);
+        SimpleWord word = new SimpleWord(myWord);
         
         // Get spelling word.
         String wordToGuess = word.getSpelling();
